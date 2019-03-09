@@ -1,0 +1,11 @@
+<script>
+pwd="1tgby7654";
+isi=pwd.replace(/[^A-z]/g, "").length;
+spc = (pwd.match(/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/g) || []).length;
+if(pwd.length==8 && isi>=1 && spc>=1){
+    alert("true");
+}
+else{
+    alert("false"); 
+}
+</script>
