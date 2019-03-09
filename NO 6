@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NO 6</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Category:</caption>
+        <tr>
+            <td>id</td>
+            <td>name</td>
+	    <td>id</td>
+	    <td>name</td>
+	    <td>category_id</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Peralatan Mandi</td>
+        </tr>
+	<tr>
+            <td>2</td>
+            <td>Mie Instan</td>
+        </tr>
+	<tr>
+            <td>3</td>
+            <td>Olahan Daging</td>
+        </tr>
+    </table>
+</body>
+</html>
