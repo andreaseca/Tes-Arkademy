@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1</title>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+</html>
+<script>
+var bio = {
+	"name" : "Andrea Eges Seca Barus",
+	"address" : "Jalan Paus Belawan",
+	"hobbies" : ["Multimedia", "Editing", "gaming"],
+	"is_married" :  false,
+	"school" : {
+		"highSchool" : "SMK Telkom Shandy Putra Medan", 
+		"university" : "Universitas Telkom"
+	},
+	"skills" : [{"name" : "Microsoft Office", "score" : 5},
+		{"name" : "Editing", "score" : 5},
+		{"name" : "Mikrokontroler", "score" : 4},
+	]
+};
+var x=JSON.stringify(bio);
+document.getElementById("demo").innerHTML = x;
+</script>
